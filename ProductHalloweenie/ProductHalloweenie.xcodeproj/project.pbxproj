@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2EE8042163EAC4F0096940B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EE8041163EAC4F0096940B /* UIKit.framework */; };
+		B2EE8044163EAC4F0096940B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EE8043163EAC4F0096940B /* Foundation.framework */; };
+		B2EE8046163EAC4F0096940B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EE8045163EAC4F0096940B /* CoreGraphics.framework */; };
+		B2EE804C163EAC500096940B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2EE804A163EAC500096940B /* InfoPlist.strings */; };
+		B2EE804E163EAC500096940B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EE804D163EAC500096940B /* main.m */; };
+		B2EE8052163EAC500096940B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EE8051163EAC500096940B /* AppDelegate.m */; };
+		B2EE8054163EAC500096940B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EE8053163EAC500096940B /* Default.png */; };
+		B2EE8056163EAC500096940B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EE8055163EAC500096940B /* Default@2x.png */; };
+		B2EE8058163EAC500096940B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2EE8057163EAC500096940B /* Default-568h@2x.png */; };
+		B2EE805B163EAC500096940B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EE8059163EAC500096940B /* MainStoryboard.storyboard */; };
+		B2EE805E163EAC500096940B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EE805D163EAC500096940B /* ViewController.m */; };
+		B2EE8066163EAC500096940B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EE8065163EAC500096940B /* SenTestingKit.framework */; };
+		B2EE8067163EAC500096940B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EE8041163EAC4F0096940B /* UIKit.framework */; };
+		B2EE8068163EAC500096940B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EE8043163EAC4F0096940B /* Foundation.framework */; };
+		B2EE8070163EAC500096940B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2EE806E163EAC500096940B /* InfoPlist.strings */; };
+		B2EE8073163EAC500096940B /* ProductHalloweenieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EE8072163EAC500096940B /* ProductHalloweenieTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2EE8069163EAC500096940B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2EE8034163EAC4F0096940B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2EE803C163EAC4F0096940B;
+			remoteInfo = ProductHalloweenie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2EE803D163EAC4F0096940B /* ProductHalloweenie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductHalloweenie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EE8041163EAC4F0096940B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2EE8043163EAC4F0096940B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2EE8045163EAC4F0096940B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2EE8049163EAC500096940B /* ProductHalloweenie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProductHalloweenie-Info.plist"; sourceTree = "<group>"; };
+		B2EE804B163EAC500096940B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2EE804D163EAC500096940B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2EE804F163EAC500096940B /* ProductHalloweenie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProductHalloweenie-Prefix.pch"; sourceTree = "<group>"; };
+		B2EE8050163EAC500096940B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2EE8051163EAC500096940B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2EE8053163EAC500096940B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B2EE8055163EAC500096940B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B2EE8057163EAC500096940B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B2EE805A163EAC500096940B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B2EE805C163EAC500096940B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2EE805D163EAC500096940B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2EE8064163EAC500096940B /* ProductHalloweenieTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductHalloweenieTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EE8065163EAC500096940B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B2EE806D163EAC500096940B /* ProductHalloweenieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProductHalloweenieTests-Info.plist"; sourceTree = "<group>"; };
+		B2EE806F163EAC500096940B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2EE8071163EAC500096940B /* ProductHalloweenieTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductHalloweenieTests.h; sourceTree = "<group>"; };
+		B2EE8072163EAC500096940B /* ProductHalloweenieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductHalloweenieTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2EE803A163EAC4F0096940B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EE8042163EAC4F0096940B /* UIKit.framework in Frameworks */,
+				B2EE8044163EAC4F0096940B /* Foundation.framework in Frameworks */,
+				B2EE8046163EAC4F0096940B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EE8060163EAC500096940B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EE8066163EAC500096940B /* SenTestingKit.framework in Frameworks */,
+				B2EE8067163EAC500096940B /* UIKit.framework in Frameworks */,
+				B2EE8068163EAC500096940B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2EE8032163EAC4F0096940B = {
+			isa = PBXGroup;
+			children = (
+				B2EE8047163EAC4F0096940B /* ProductHalloweenie */,
+				B2EE806B163EAC500096940B /* ProductHalloweenieTests */,
+				B2EE8040163EAC4F0096940B /* Frameworks */,
+				B2EE803E163EAC4F0096940B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2EE803E163EAC4F0096940B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2EE803D163EAC4F0096940B /* ProductHalloweenie.app */,
+				B2EE8064163EAC500096940B /* ProductHalloweenieTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2EE8040163EAC4F0096940B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2EE8041163EAC4F0096940B /* UIKit.framework */,
+				B2EE8043163EAC4F0096940B /* Foundation.framework */,
+				B2EE8045163EAC4F0096940B /* CoreGraphics.framework */,
+				B2EE8065163EAC500096940B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2EE8047163EAC4F0096940B /* ProductHalloweenie */ = {
+			isa = PBXGroup;
+			children = (
+				B2EE8050163EAC500096940B /* AppDelegate.h */,
+				B2EE8051163EAC500096940B /* AppDelegate.m */,
+				B2EE8059163EAC500096940B /* MainStoryboard.storyboard */,
+				B2EE805C163EAC500096940B /* ViewController.h */,
+				B2EE805D163EAC500096940B /* ViewController.m */,
+				B2EE8048163EAC4F0096940B /* Supporting Files */,
+			);
+			path = ProductHalloweenie;
+			sourceTree = "<group>";
+		};
+		B2EE8048163EAC4F0096940B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2EE8049163EAC500096940B /* ProductHalloweenie-Info.plist */,
+				B2EE804A163EAC500096940B /* InfoPlist.strings */,
+				B2EE804D163EAC500096940B /* main.m */,
+				B2EE804F163EAC500096940B /* ProductHalloweenie-Prefix.pch */,
+				B2EE8053163EAC500096940B /* Default.png */,
+				B2EE8055163EAC500096940B /* Default@2x.png */,
+				B2EE8057163EAC500096940B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2EE806B163EAC500096940B /* ProductHalloweenieTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2EE8071163EAC500096940B /* ProductHalloweenieTests.h */,
+				B2EE8072163EAC500096940B /* ProductHalloweenieTests.m */,
+				B2EE806C163EAC500096940B /* Supporting Files */,
+			);
+			path = ProductHalloweenieTests;
+			sourceTree = "<group>";
+		};
+		B2EE806C163EAC500096940B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2EE806D163EAC500096940B /* ProductHalloweenieTests-Info.plist */,
+				B2EE806E163EAC500096940B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2EE803C163EAC4F0096940B /* ProductHalloweenie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EE8076163EAC500096940B /* Build configuration list for PBXNativeTarget "ProductHalloweenie" */;
+			buildPhases = (
+				B2EE8039163EAC4F0096940B /* Sources */,
+				B2EE803A163EAC4F0096940B /* Frameworks */,
+				B2EE803B163EAC4F0096940B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProductHalloweenie;
+			productName = ProductHalloweenie;
+			productReference = B2EE803D163EAC4F0096940B /* ProductHalloweenie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2EE8063163EAC500096940B /* ProductHalloweenieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EE8079163EAC500096940B /* Build configuration list for PBXNativeTarget "ProductHalloweenieTests" */;
+			buildPhases = (
+				B2EE805F163EAC500096940B /* Sources */,
+				B2EE8060163EAC500096940B /* Frameworks */,
+				B2EE8061163EAC500096940B /* Resources */,
+				B2EE8062163EAC500096940B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2EE806A163EAC500096940B /* PBXTargetDependency */,
+			);
+			name = ProductHalloweenieTests;
+			productName = ProductHalloweenieTests;
+			productReference = B2EE8064163EAC500096940B /* ProductHalloweenieTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2EE8034163EAC4F0096940B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Robert DeNicola DevelopMental iOS Applications";
+			};
+			buildConfigurationList = B2EE8037163EAC4F0096940B /* Build configuration list for PBXProject "ProductHalloweenie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2EE8032163EAC4F0096940B;
+			productRefGroup = B2EE803E163EAC4F0096940B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2EE803C163EAC4F0096940B /* ProductHalloweenie */,
+				B2EE8063163EAC500096940B /* ProductHalloweenieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2EE803B163EAC4F0096940B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EE804C163EAC500096940B /* InfoPlist.strings in Resources */,
+				B2EE8054163EAC500096940B /* Default.png in Resources */,
+				B2EE8056163EAC500096940B /* Default@2x.png in Resources */,
+				B2EE8058163EAC500096940B /* Default-568h@2x.png in Resources */,
+				B2EE805B163EAC500096940B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EE8061163EAC500096940B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EE8070163EAC500096940B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2EE8062163EAC500096940B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2EE8039163EAC4F0096940B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EE804E163EAC500096940B /* main.m in Sources */,
+				B2EE8052163EAC500096940B /* AppDelegate.m in Sources */,
+				B2EE805E163EAC500096940B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EE805F163EAC500096940B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EE8073163EAC500096940B /* ProductHalloweenieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2EE806A163EAC500096940B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2EE803C163EAC4F0096940B /* ProductHalloweenie */;
+			targetProxy = B2EE8069163EAC500096940B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2EE804A163EAC500096940B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2EE804B163EAC500096940B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2EE8059163EAC500096940B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2EE805A163EAC500096940B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		B2EE806E163EAC500096940B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2EE806F163EAC500096940B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2EE8074163EAC500096940B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2EE8075163EAC500096940B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2EE8077163EAC500096940B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProductHalloweenie/ProductHalloweenie-Prefix.pch";
+				INFOPLIST_FILE = "ProductHalloweenie/ProductHalloweenie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2EE8078163EAC500096940B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProductHalloweenie/ProductHalloweenie-Prefix.pch";
+				INFOPLIST_FILE = "ProductHalloweenie/ProductHalloweenie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B2EE807A163EAC500096940B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProductHalloweenie.app/ProductHalloweenie";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProductHalloweenie/ProductHalloweenie-Prefix.pch";
+				INFOPLIST_FILE = "ProductHalloweenieTests/ProductHalloweenieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B2EE807B163EAC500096940B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProductHalloweenie.app/ProductHalloweenie";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProductHalloweenie/ProductHalloweenie-Prefix.pch";
+				INFOPLIST_FILE = "ProductHalloweenieTests/ProductHalloweenieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2EE8037163EAC4F0096940B /* Build configuration list for PBXProject "ProductHalloweenie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EE8074163EAC500096940B /* Debug */,
+				B2EE8075163EAC500096940B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EE8076163EAC500096940B /* Build configuration list for PBXNativeTarget "ProductHalloweenie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EE8077163EAC500096940B /* Debug */,
+				B2EE8078163EAC500096940B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2EE8079163EAC500096940B /* Build configuration list for PBXNativeTarget "ProductHalloweenieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EE807A163EAC500096940B /* Debug */,
+				B2EE807B163EAC500096940B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2EE8034163EAC4F0096940B /* Project object */;
+}
